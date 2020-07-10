@@ -1,0 +1,122 @@
+@import 'vars'
+
+*
+  margin: 0
+  padding: 0
+
+a
+  text-decoration: none
+
+ul, li
+  margin: 0
+  padding: 0
+  list-style: none
+
+img
+  width: 100%
+
+.main-content
+  background: $bg-main
+  min-height: 100vh
+  width: 100%
+
+.wrapper
+  max-width: 1345px
+  margin: 0 auto
+  padding: 0 48px
+
+.header
+  padding-top: 33px
+  display: flex
+  justify-content: space-between
+  .logo a
+    font-family: $TTTravel_B
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    letter-spacing: -1px
+    color: $black
+  .top-nav
+    .hamburger
+      display: none
+      span
+        display: block
+        width: 20px
+        height: 1px
+        background: rgba(40, 40, 40, 0.57)
+        margin-bottom: 5px
+        cursor: pointer
+    .menu
+      line-height: 23px
+      .menu_item a
+        font-family: $TTTravel_M
+        font-size: 11px
+        letter-spacing: 0.02em
+        text-transform: capitalize
+        color: $black
+.images-block
+  display: flex
+  justify-content: center
+  .images-block_item1
+    width: 238px
+    transform: rotate(1.1deg)
+    margin: 10% 10px 0 0
+  .images-block_item2
+    width: 476px
+    transform: rotate(1.5deg)
+  .images-block_item3
+    width: 186px
+    margin: 317px 0 0 -85px
+    transform: rotate(2.03deg)
+
+.social
+  width: 100px
+  display: flex
+  justify-content: space-between
+  a
+    font-family: $TTTravel_M
+    font-size: 11px
+    letter-spacing: 0.02em
+    color: $black
+  span
+    width: 56px
+    height: 1px
+    background: #393939
+    opacity: 0.24
+    margin-top: 6px
+
+.swiper-container
+  width: 80%
+  height: 100%
+  position: absolute
+  top: 15%
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 1
+
+.swiper-slide
+  width: 90%
+
+.text1
+  font-family: $Schnyder_X
+  font-size: 125px
+  display: flex
+  align-items: center
+  text-align: center
+  text-transform: uppercase
+  color: #580300
+  mix-blend-mode: darken
+
+.text2
+  font-family: $Schnyder_X
+  font-size: 125px
+  display: flex
+  align-items: center
+  text-align: center
+  text-transform: uppercase
+  mix-blend-mode: darken
+  box-sizing: border-box
+  transform: rotate(-1.5deg)
+
+@import 'media'
